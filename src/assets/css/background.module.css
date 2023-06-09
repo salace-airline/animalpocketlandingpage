@@ -1,15 +1,16 @@
-/* Small devices (portrait tablets and large phones, 640px and up) */
-@media only screen and (min-width: 640px) {
-  .landingWrapper {
-    background: no-repeat center center fixed;
-    background-size: cover;
-    overflow: hidden;
+  .pageDisplay {
+    display: grid;
   }
-}
+  
+  .landingWrapperMobile {
+    min-width: 667px; 
+    min-height: 375px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden; 
+  }
 
-/* Large devices (laptops/desktops, 1024px and up) */
-@media only screen and (min-width: 1024px) {
-  .landingWrapper {
+  .landingWrapperBrowser {
     min-width: 1024px;
     min-height: 100%;
     width: 100%;
@@ -18,4 +19,9 @@
     top: 0;
     left: 0;
   }
-}
+
+  .onTopContent {
+    grid-area: 1/1;
+    position: relative;
+    display: grid;
+  }
