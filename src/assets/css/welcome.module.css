@@ -6,8 +6,8 @@
 .container {
   position: relative;
   max-width: 500px;
-  margin-left: 150px;
-  margin-top: 70px;
+  margin-left: 8%;
+  margin-top: 8%;
 }
 
 .figure {
@@ -20,7 +20,7 @@
 }
 
 .figure figcaption .hello {
-    color: black;
+    color: white;
     font-family: finkHeavy;
     position: absolute;
     top: 4%;
@@ -34,4 +34,9 @@
     position: absolute;
     top: 25%;
     left: 38%;
+}
+
+.apple {
+  position: absolute;
+  left: 43%;
 }

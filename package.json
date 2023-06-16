@@ -29,6 +29,7 @@
     "react-bootstrap": "^2.7.4",
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
+    "react-svg": "^16.1.16",
     "styled-components": "^6.0.0-rc.1"
   },
   "resolutions": {

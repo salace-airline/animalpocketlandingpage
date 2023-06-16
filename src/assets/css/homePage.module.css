@@ -1,15 +1,5 @@
-@font-face {
-  font-family: finkHeavy;
-  src: url(../FinkHeavy.ttf);
-}
-
 .container {
   margin: auto;
   max-width: 500px;
   font-family: sans-serif;
-}
-
-.pageTitle {
-  color: #2EB353;
-  font-family: finkHeavy;
 }
