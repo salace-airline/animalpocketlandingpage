@@ -3,40 +3,86 @@
   src: url(../FinkHeavy.ttf);
 }
 
-.container {
+.browserView {
   position: relative;
-  max-width: 500px;
-  margin-left: 8%;
-  margin-top: 8%;
+  max-width: 600px;
 }
 
-.figure {
-  width: 100%;
+.browserView .figure {
+  width: auto;
   height: 100%;
 }
 
-.welcomeBubble {
+.browserView .welcomeBubble {
   position: relative;
 }
 
-.figure figcaption .hello {
+.browserView .figure figcaption .hello {
     color: white;
     font-family: finkHeavy;
     position: absolute;
-    top: 4%;
-    left: 19%;
+    top: -2.8%;
+    left: 16%;
 }
 
-.figure figcaption .pageTitle {
+.browserView .figure figcaption .pageTitle {
     color: #2EB353;
     font-family: finkHeavy;
+    font-size: xx-large;
     text-align: center;
     position: absolute;
-    top: 25%;
-    left: 38%;
+    top: 15%;
+    left: 35%;
 }
 
-.apple {
+.browserView .figure .apple {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+}
+
+.mobileView {
+  display: grid;
+  position: relative;
+  width: 100%;
+}
+
+.mobileView .mobFigure {
+  width: auto;
+  display: grid;
+  grid-area: 1/1;
+}
+
+.mobileView .mobWelcomeBubble {
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  margin-top: 10%;
+}
+
+.mobileView .mobFigure figcaption .hello {
+  color: white;
+  font-family: finkHeavy;
   position: absolute;
-  left: 43%;
+  top: 9.8%;
+  left: 16%;
+}
+
+.mobileView .mobFigure figcaption .mobPageTitle {
+  color: #2EB353;
+  font-family: finkHeavy;
+  font-size: x-large;
+  text-align: center;
+  position: absolute;
+  top: 22.2%;
+  left: 26.5%;
+}
+
+.mobileView .mobFigure .mobApple {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30%;
 }

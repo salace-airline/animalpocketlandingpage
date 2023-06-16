@@ -13,13 +13,18 @@ export const BackgroundImage = ({ children }) => {
         <div className={styles.onTopContent}>
           { children }
         </div>
-        <Welcome />
+        <div className={styles.welcome}>
+          <Welcome />
+        </div>
       </BrowserView>
 
       <MobileView className={styles.pageDisplay}>
         <StaticImage className={styles.landingWrapperMobile} src="../images/wp_ls_day.png" />
         <div className={styles.onTopContent}>
           { children }
+        </div>
+        <div className={styles.welcomePhone}>
+          <Welcome />
         </div>
       </MobileView>
 

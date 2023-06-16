@@ -3,8 +3,6 @@
   }
   
   .landingWrapperMobile {
-    min-width: 667px; 
-    min-height: 375px;
     width: 100%;
     position: absolute;
     overflow: hidden; 
@@ -24,4 +22,11 @@
     grid-area: 1/1;
     position: relative;
     display: grid;
+  }
+
+  .welcome {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translate(0px, -50%);
   }
