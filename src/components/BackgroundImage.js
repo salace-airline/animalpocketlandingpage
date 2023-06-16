@@ -1,5 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import Welcome from "./Welcome"
 import * as styles from "../assets/css/background.module.css" 
 import { BrowserView, MobileView } from 'react-device-detect'
 
@@ -12,6 +13,7 @@ export const BackgroundImage = ({ children }) => {
         <div className={styles.onTopContent}>
           { children }
         </div>
+        <Welcome />
       </BrowserView>
 
       <MobileView className={styles.pageDisplay}>
