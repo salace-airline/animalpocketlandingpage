@@ -2,8 +2,6 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Welcome from "./Welcome"
 import * as styles from "../assets/css/background.module.css" 
-import browserImage from "../images/ipad_ls_day.png"
-import mobileImage from "../images/wp_ls_day2.png"
 import { BrowserView, MobileView } from 'react-device-detect'
 
 export const BackgroundImage = ({ children }) => {
@@ -11,7 +9,7 @@ export const BackgroundImage = ({ children }) => {
     <div>
 
       <BrowserView className={styles.pageDisplay}>
-        <StaticImage className={styles.landingWrapperBrowser} src={browserImage} />
+        <StaticImage className={styles.landingWrapperBrowser} src="../images/ipad_ls_day.png" />
         <div className={styles.onTopContent}>
           { children }
         </div>
@@ -21,7 +19,7 @@ export const BackgroundImage = ({ children }) => {
       </BrowserView>
 
       <MobileView className={styles.pageDisplay}>
-        <StaticImage className={styles.landingWrapperMobile} src={mobileImage} />
+        <StaticImage className={styles.landingWrapperMobile} src="../images/wp_ls_day2.png" />
         <div className={styles.onTopContent}>
           { children }
         </div>
