@@ -29,7 +29,7 @@ export const Welcome = () => {
             <h2 className={styles.mobPageTitle}>Welcome to <br />Animal Pocket!</h2>
           </figcaption>
 
-          <img className={styles.mobApple} src={mySVG} width="175" alt="download with apple image with link" />
+          <img className={styles.mobApple} src={mySVG} width="150" alt="download with apple image with link" />
         </figure>
       </MobileView>
     </div>
