@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimal_pocket_website=self.webpackChunkanimal_pocket_website||[]).push([[678],{6558:function(e,t,l){l.r(t),l.d(t,{Head:function(){return a}});var n=l(7294);t.default=()=>n.createElement("h1",null,"Hello world!");const a=()=>n.createElement("title",null,"Home Page")}}]);
+//# sourceMappingURL=component---src-pages-index-js-1951dcbb6b5c4db341cf.js.map

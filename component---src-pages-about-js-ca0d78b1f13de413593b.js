@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimal_pocket_website=self.webpackChunkanimal_pocket_website||[]).push([[682],{5465:function(e,t,n){n.r(t),n.d(t,{Head:function(){return a}});var l=n(7294);const a=()=>l.createElement("title",null,"Animal Pocket App");t.default=()=>l.createElement("main",null,l.createElement("h2",null,"Welcome to Animal Pocket App!"))}}]);
+//# sourceMappingURL=component---src-pages-about-js-ca0d78b1f13de413593b.js.map
