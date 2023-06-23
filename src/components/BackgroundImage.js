@@ -23,7 +23,7 @@ export const BackgroundImage = ({ children }) => {
         <div className={styles.onTopContent}>
           { children }
         </div>
-        <div className={styles.welcomePhone}>
+        <div className={styles.welcome}>
           <Welcome />
         </div>
       </MobileView>

@@ -16,7 +16,7 @@ export const Welcome = () => {
             <h1 className={styles.pageTitle}>Welcome to <br />Animal Pocket!</h1>
           </figcaption>
               
-          <object className={styles.apple} type="image/svg+xml" data={mySVG} width="175"></object>
+          <object className={styles.apple} type="image/svg+xml" data={mySVG} width="175" aria-label="download with apple image with link"></object>
         </figure>
       </BrowserView>
 
@@ -29,7 +29,7 @@ export const Welcome = () => {
             <h2 className={styles.mobPageTitle}>Welcome to <br />Animal Pocket!</h2>
           </figcaption>
 
-          <object className={styles.mobApple} type="image/svg+xml" data={mySVG} width="200"></object>
+          <object className={styles.mobApple} type="image/svg+xml" data={mySVG} width="200" aria-label="download with apple image with link"></object>
         </figure>
       </MobileView>
     </div>
