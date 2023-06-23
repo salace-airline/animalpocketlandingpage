@@ -19,7 +19,7 @@ export const BackgroundImage = ({ children }) => {
       </BrowserView>
 
       <MobileView className={styles.pageDisplay}>
-        <StaticImage className={styles.landingWrapperMobile} src="../images/wp_ls_day2.png" />
+        <StaticImage className={styles.landingWrapperMobile} src="../images/wp_ls_day.png" />
         <div className={styles.onTopContent}>
           { children }
         </div>
