@@ -30,3 +30,10 @@
     left: 8%;
     transform: translate(0px, -50%);
   }
+
+  .welcomePhone {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    transform: translate(0px, -50%);
+  }
