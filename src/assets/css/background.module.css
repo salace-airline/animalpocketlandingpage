@@ -10,9 +10,8 @@
 
   .landingWrapperBrowser {
     min-width: 1024px;
-    min-height: 100%;
+    min-height: 90%;
     width: 100%;
-    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,6 +26,13 @@
   .welcome {
     position: absolute;
     top: 40%;
+    left: 8%;
+    transform: translate(0px, -50%);
+  }
+
+  .welcomePhone {
+    position: absolute;
+    top: 20%;
     left: 8%;
     transform: translate(0px, -50%);
   }

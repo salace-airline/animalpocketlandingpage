@@ -9,7 +9,7 @@ export const BackgroundImage = ({ children }) => {
     <div>
 
       <BrowserView className={styles.pageDisplay}>
-        <StaticImage className={styles.landingWrapperBrowser} src="../images/ipad_ls_day.png" />
+        <StaticImage className={styles.landingWrapperBrowser} src="../images/ipad_ls_day2.png" />
         <div className={styles.onTopContent}>
           { children }
         </div>
@@ -23,7 +23,7 @@ export const BackgroundImage = ({ children }) => {
         <div className={styles.onTopContent}>
           { children }
         </div>
-        <div className={styles.welcome}>
+        <div className={styles.welcomePhone}>
           <Welcome />
         </div>
       </MobileView>
