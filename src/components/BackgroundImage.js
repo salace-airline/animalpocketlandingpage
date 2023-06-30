@@ -9,7 +9,7 @@ export const BackgroundImage = ({ children }) => {
     <div>
 
       <BrowserView className={styles.pageDisplay}>
-        <StaticImage className={styles.landingWrapperBrowser} src="../images/ipad_ls_day2.png" />
+        <StaticImage className={styles.landingWrapperBrowser} src="../images/ipad_ls_day3.png" />
         <div className={styles.onTopContent}>
           { children }
         </div>
